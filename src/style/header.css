@@ -1,0 +1,78 @@
+header {
+  max-width: 1235px;
+  margin: 0 auto;
+}
+
+.navbar-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 30px;
+  border-bottom: 1px solid #000000;
+}
+
+.icones-sociais {
+  display: flex;
+  gap: 16px;
+}
+
+.navbar-sociais span {
+  font-family: "Roboto mono";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+
+  margin-bottom: 30px;
+}
+
+.icones-sociais a {
+  text-decoration: none;
+
+  margin-bottom: 30px;
+}
+
+.icones-sociais img {
+  width: 25px;
+  padding: 10px;
+}
+
+.icones-sociais img:hover {
+  border-bottom: 2px solid #ffafcc;
+}
+
+.navbar-title-gr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 17px 0;
+}
+
+.navbar-title-gr span {
+  font-family: "Kolker Brush";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 141px;
+}
+
+.navbar-menu ul {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 16px 0;
+
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.navbar-menu ul li {
+  list-style: none;
+
+  font-family: "Reenie Beanie";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+}
